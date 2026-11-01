@@ -1,0 +1,4 @@
+# .bat ファイルは Windows 用の文字コード（Shift-JIS）と改行（CRLF）のまま保存する
+*.bat -text
+# 設定ファイルは Windows のメモ帳で開きやすいよう CRLF にする
+*.ini text eol=crlf
